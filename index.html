@@ -13,7 +13,7 @@
     <header>
         <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Brandon Swinton</a>
+              <a class="navbar-brand" href="#home">Brandon Swinton</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -25,13 +25,22 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">About</a>
+                      <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Education</a>
+                      <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#project">Project</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
                     </li>
                       </ul>
                     </li>
@@ -48,45 +57,119 @@
             </div>
         </div>
         <!--Home-->
-        <section id="home">
+        <section id="home" class="container">
             <div class="wrapper">
                 <h2>Home</h2>
                 <h4>Brandon Swinton</h4>
-                <img src="https://i.postimg.cc/257rHWHC/IMG-20210822-WA0208.jpg" alt="Brandon Profile">
-                <p><h4>Student</h4></p>
+                <img src="https://i.postimg.cc/257rHWHC/IMG-20210822-WA0208.jpg " alt="Brandon Profile" class="img-thumbnail">
+                <p><h4>I am a future developer</h4></p>
             </div>
         </section>
         <!-- About -->
         <section id="about">
             <h2>About</h2>
+            <div class="container ">
+              <div class="row">
+                  <div class="col-6 p-3">
+                      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner rounded-3">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                              <img src="https://i.postimg.cc/q7SBW1hQ/IMG-20210822-WA0192-1.jpg" class="d-flex w-100" alt="image1">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <img src="https://i.postimg.cc/jjgn26WJ/IMG-20210822-WA0208.jpg" class="d-block w-100" alt="image2">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://i.postimg.cc/gcfR3KgV/IMG-20210822-WA0212.jpg" class="d-block w-100" alt="image3">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                          <div class="col-6 p-3">
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, ad eum! Sit, itaque ipsum et consequuntur blanditiis eos, sunt doloremque ex tempora nesciunt, necessitatibus quas ipsa impedit. Nulla, totam itaque!
+                          Exercitationem officiis aliquid adipisci ab magni repudiandae, et reiciendis perferendis expedita iusto tempora dicta quis iure aut cumque laboriosam architecto nihil natus mollitia eligendi ex. Fuga laboriosam repellat eius iusto.
+                          Accusamus blanditiis, officia dignissimos odit eum fuga enim id ex deleniti distinctio sed beatae consectetur fugit quos nulla, possimus minima expedita voluptates nisi nesciunt commodi unde non repellat perferendis. Vel!
+                          Earum quis nesciunt accusantium, officiis ex vitae possimus reprehenderit sed aliquid odit fuga asperiores similique veritatis eum incidunt nulla repellat, nobis veniam atque modi. Impedit, tempore numquam! Illo, consequatur nesciunt. </p>
+                        </div>   
+              
+          </div>
+            </div>
         </section>
         <!--Education-->
         <section id="education">
-            <div class="wrappery">
-              <h2>Education</h2>
-            <div>
-                <p><ul><li>.</li>
-                <li>.</li>
-                <li>.</li>
-                <li>.</li></ul> </p>
+            <div class="col-6 mx-auto p-3">
+              <h2 class="p-3">Education</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam labore illum nulla minus, iusto debitis laboriosam dicta tempore molestiae hic corrupti possimus necessitatibus, corporis pariatur at deserunt inventore, suscipit ducimus.
+                Quasi, quas ipsum! Facere, tenetur sapiente pariatur molestiae quasi quae asperiores sint accusantium error ducimus, eligendi ratione adipisci alias obcaecati. Voluptatibus id quibusdam asperiores dolor minus eius illo voluptates delectus.
+                Ab dolore quam a, facilis aliquid quod repellat sapiente delectus atque iure earum pariatur, commodi veritatis illo, repellendus rem magni blanditiis</p>
+                
+              
             </div>
-        </section>
-        <!--Project-->
-        <section id="project">
-            <h2>Project</h2>
         </section>
         <!--Skills-->
         <section id="skills">
             <h2>Skills</h2>
+            <div class="col-6 mx-auto p-3">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni exercitationem quos odit modi explicabo in laudantium voluptate tenetur voluptatibus itaque ducimus illum, ex, quia molestias aspernatur, velit officia commodi repellat.
+                Voluptatum voluptates, ratione vitae ducimus libero officia, porro explicabo rem voluptatibus esse laborum excepturi a est, iste omnis aliquam assumenda inventore dicta! Suscipit saepe minus cumque numquam molestiae fugiat aliquam?
+                Commodi, ipsam ducimus? Laboriosam, minima aspernatur et quae officiis laborum ipsum consequuntur? Odit ipsa, officiis ea animi consectetur iusto repudiandae voluptatem ducimus molestiae, cumque quod repellendus harum vitae quaerat enim!
+              </p>
+            </div>
+          </section>
+        <!--Project-->
+        <section id="project">
+            <h2>Project</h2>
+            <div class="col-6 mx-auto p-3">
+             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est aperiam animi expedita eos, tempore fugiat eius, voluptatem ex reiciendis optio ea facilis distinctio ad, incidunt aspernatur asperiores illo quidem? Nemo?
+              Optio sequi necessitatibus cum culpa quasi laudantium a voluptatum, temporibus magni possimus, inventore quis, pariatur voluptatem assumenda recusandae illo. Alias harum minima architecto quidem magnam ullam asperiores? Magni, tempore quos.
+              Sunt corporis aliquid quasi? Expedita voluptates nulla commodi rem perferendis nobis perspiciatis hic qui itaque excepturi nemo fugit ducimus facilis cum libero dolorem cupiditate molestiae laborum, explicabo exercitationem assumenda est.
+             </p>
+
+            </div>
         </section>
         <!--  -->
         <!--Contract-->
         <section id="contact">
             <h2>Contact</h2>
+            <section id="contact" class="container text-center">
+              <form action="https://formspree.io/f/xjvzooze">
+                <div>
+                  <label for="#firstname">Name</label>
+                  <input id="firstname"name="firstName"type="text" placeholder="Enter your name" required>
+                </div>
+            <div>
+                <label for="#firstname">Surname</label>
+                <input id="surname" name="surname" type="text" placeholder="Enter your surname"required>
+            </div>
+              <div>
+                <label for="#firstname">Message</label>
+                <textarea name="message" cols="30" rows="10"></textarea>
+              </div>
+               <div>
+                <input type="submit" value="submit">
+              </div>
+        </form>
+        </section>
+            
         </section>
         <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     </main>
     <script src="https://kit.fontawesome.com/490cb6a8b5.js" crossorigin="anonymous"></script>
+    <footer>Copyright &copy;2022</footer>
 </body>
 </html>

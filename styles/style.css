@@ -19,10 +19,6 @@ header{
     justify-content: space-between;
     background-color: rgb(230, 219, 219);
 }
-.logo{
-    width: 5em;
-    height: auto;
-}
 /*Place the menu to the right of the page*/
 .menu {
     /* margin: auto 0; */
@@ -49,17 +45,15 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 body{
-    background-color: white;
+    background-image: url(https://i.postimg.cc/BvfdYCD9/1477387.png);
     font-family: sans-serif;
+    background-size: cover;
 }
 p{
     text-align: center;
 }
 /* home */
 #home {
-    background-color:white;
-    background-image: url(https://i.postimg.cc/4Nf2zB1R/leone-venter-Vie-M9-Bd-ZKFo-unsplash.jpg);
-    background-size: cover;
 }
 h2{
     color: black;
@@ -69,7 +63,7 @@ h2{
     align-content: center;
 }
 .wrapper img{
-    border-radius: 90%;
+    border-radius: 30px;
     display: block;
     margin: 15px auto;
     width: 300px;
@@ -78,12 +72,11 @@ h2{
 .wrappery img,.wrappery p{
     display: block;
     margin: 15px;
-    width: 200px;
-    
+    width: 200px;   
 }
 /* visited link */
 a:visited{
-    color: black;
+    color: slategray;
 }
 /* mouse over link */
 a:hover{
@@ -95,7 +88,7 @@ a:active{
     color: purple;
 }
 a{
-    margin: auto;
+    margin: left;
     text-decoration: none;
     font-family: monospace;
 }
@@ -103,3 +96,22 @@ i{
     display: inline;
     color: grey;
 }
+.navbar-brand{
+    color: white;
+}
+.slide{
+    border-radius: 30%;
+    width: 400px;
+}
+h2,h4{
+    color: lightslategray;
+}
+#about{
+    align-items: center;
+}
+p{
+    color: antiquewhite;
+    font-family: monospace;
+}
+
+
