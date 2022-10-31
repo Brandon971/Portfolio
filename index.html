@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="./styles/style.css">
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <title>Portfolio</title>
+    <title>My Portfolio</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-dark bg-dark fixed-top">
-            <div class="container-fluid">
+        <nav class="navbar navbar-dark sticky-top">
+            <div class="container-fluid text-center">
               <a class="navbar-brand" href="#home">Brandon Swinton</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -40,7 +39,10 @@
                       <a class="nav-link" href="#project">Project</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#contact">Contact</a>
+                      <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact Me</a>
                     </li>
                       </ul>
                     </li>
@@ -48,28 +50,23 @@
                 </div>
               </div>
             </div>
-          </nav>
-    </header>   
+          </nav>  
     <main>
-        <div class="container">
-            <div class="row">
-                <div class="col"></div>
-            </div>
-        </div>
         <!--Home-->
-        <section id="home" class="container">
+        <section id="home" class="container-fluid">
             <div class="wrapper">
-                <h2>Home</h2>
-                <h4>Brandon Swinton</h4>
-                <img src="https://i.postimg.cc/257rHWHC/IMG-20210822-WA0208.jpg " alt="Brandon Profile" class="img-thumbnail">
-                <p><h4>I am a future developer</h4></p>
+                <p><h1 id="h1">My Name is Brandon Swinton</h1></p>
+                <p><h2 id="h2">This is my Portfolio</h2></p>
+            </div>
+            <div>
+              
             </div>
         </section>
         <!-- About -->
-        <section id="about">
+      <section id="about">
             <h2>About</h2>
-            <div class="container ">
-              <div class="row">
+            <div class="container">
+              <div class="row d-flex flex-column flex-md-row">
                   <div class="col-6 p-3">
                       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                           <div class="carousel-indicators">
@@ -79,13 +76,13 @@
                           </div>
                           <div class="carousel-inner rounded-3">
                             <div class="carousel-item active" data-bs-interval="10000">
-                              <img src="https://i.postimg.cc/q7SBW1hQ/IMG-20210822-WA0192-1.jpg" class="d-flex w-100" alt="image1">
+                              <img src="https://i.postimg.cc/FRjK4Q2Q/IMG-20210822-WA0208.jpg" class="d-flex w-100 mx-auto" alt="image1">
                             </div>
                             <div class="carousel-item" data-bs-interval="2000">
-                              <img src="https://i.postimg.cc/jjgn26WJ/IMG-20210822-WA0208.jpg" class="d-block w-100" alt="image2">
+                              <img src="https://i.postimg.cc/kMbQ26dn/IMG-20210822-WA0212.jpg" class="d-block w-100 mx-auto" alt="image2">
                             </div>
                             <div class="carousel-item">
-                              <img src="https://i.postimg.cc/gcfR3KgV/IMG-20210822-WA0212.jpg" class="d-block w-100" alt="image3">
+                              <img src="https://i.postimg.cc/q7SBW1hQ/IMG-20210822-WA0192-1.jpg" class="d-block w-100 mx-auto" alt="image3">
                             </div>
                           </div>
                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -95,7 +92,9 @@
                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
+            
                           </button>
+                        
                         </div>
                       </div>
                           <div class="col-6 p-3">
@@ -103,8 +102,8 @@
                           Exercitationem officiis aliquid adipisci ab magni repudiandae, et reiciendis perferendis expedita iusto tempora dicta quis iure aut cumque laboriosam architecto nihil natus mollitia eligendi ex. Fuga laboriosam repellat eius iusto.
                           Accusamus blanditiis, officia dignissimos odit eum fuga enim id ex deleniti distinctio sed beatae consectetur fugit quos nulla, possimus minima expedita voluptates nisi nesciunt commodi unde non repellat perferendis. Vel!
                           Earum quis nesciunt accusantium, officiis ex vitae possimus reprehenderit sed aliquid odit fuga asperiores similique veritatis eum incidunt nulla repellat, nobis veniam atque modi. Impedit, tempore numquam! Illo, consequatur nesciunt. </p>
-                        </div>   
-              
+                        </div>
+                
           </div>
             </div>
         </section>
@@ -138,38 +137,242 @@
               Optio sequi necessitatibus cum culpa quasi laudantium a voluptatum, temporibus magni possimus, inventore quis, pariatur voluptatem assumenda recusandae illo. Alias harum minima architecto quidem magnam ullam asperiores? Magni, tempore quos.
               Sunt corporis aliquid quasi? Expedita voluptates nulla commodi rem perferendis nobis perspiciatis hic qui itaque excepturi nemo fugit ducimus facilis cum libero dolorem cupiditate molestiae laborum, explicabo exercitationem assumenda est.
              </p>
-
             </div>
         </section>
-        <!--  -->
+        <section id="testimonials">
+          <h2>Testimonials</h2>
+          <div class="container mt-5">
+
+
+            <!--Section: Content-->
+            <section class="team-section text-center dark-grey-text">
+          
+              <!-- Section heading -->
+              <!-- Section description -->
+              <p class="text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam
+                eum porro a pariatur veniam.</p>
+          
+              <!--Grid row-->
+              <div class="row text-center">
+          
+                <!--Grid column-->
+                <div class="col-md-4 mb-4">
+          
+                  <div class="testimonial">
+                    <!--Avatar-->
+                    <div class="avatar mx-auto">
+                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg" class="rounded-circle z-depth-1 img-fluid">
+                    </div>
+                    <!--Content-->
+                    <h4 class="font-weight-bold dark-grey-text mt-4">Anna Deynah</h4>
+                    <h6 class="font-weight-bold blue-text my-3">Web Designer</h6>
+                    <p class="font-weight-normal dark-grey-text">
+                      <i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+                      eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
+                    <!--Review-->
+                  </div>
+          
+                </div>
+                <!--Grid column-->
+          
+                <!--Grid column-->
+                <div class="col-md-4 mb-4">
+          
+                  <div class="testimonial">
+                    <!--Avatar-->
+                    <div class="avatar mx-auto">
+                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class="rounded-circle z-depth-1 img-fluid">
+                    </div>
+                    <!--Content-->
+                    <h4 class="font-weight-bold dark-grey-text mt-4">John Doe</h4>
+                    <h6 class="font-weight-bold blue-text my-3">Web Developer</h6>
+                    <p class="font-weight-normal dark-grey-text">
+                      <i class="fas fa-quote-left pr-2"></i>Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                      corporis suscipit laboriosam, nisi ut aliquid commodi.</p>
+                  </div>
+          
+                </div>
+                <!--Grid column-->
+          
+                <!--Grid column-->
+                <div class="col-md-4 mb-4">
+          
+                  <div class="testimonial">
+                    <!--Avatar-->
+                    <div class="avatar mx-auto">
+                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle z-depth-1 img-fluid">
+                    </div>
+                    <!--Content-->
+                    <h4 class="font-weight-bold dark-grey-text mt-4">Maria Kate</h4>
+                    <h6 class="font-weight-bold blue-text my-3">Photographer</h6>
+                    <p class="font-weight-normal dark-grey-text">
+                      <i class="fas fa-quote-left pr-2"></i>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                      blanditiis praesentium voluptatum deleniti atque corrupti.</p>
+                  </div>
+          
+                </div>
+                <!--Grid column-->
+          
+              </div>
+              <!--Grid row-->
+          
+            </section>
+            <!--Section: Content-->
+          
+          
+          </div>
+          </div>
         <!--Contract-->
         <section id="contact">
-            <h2>Contact</h2>
-            <section id="contact" class="container text-center">
-              <form action="https://formspree.io/f/xjvzooze">
-                <div>
-                  <label for="#firstname">Name</label>
-                  <input id="firstname"name="firstName"type="text" placeholder="Enter your name" required>
+          <h2>Contact Me </h2>
+          <div class="container my-5">
+
+ 
+            <!--Section: Content-->
+            <section class="contact-section dark-grey-text mb-5">
+              
+              <style>
+                .contact-section .form .btn-floating {
+                  left: 3px;
+                }
+              </style>
+        
+              <!-- Form with header -->
+              <div class="card">
+        
+                <!-- Grid row -->
+                <div class="row">
+        
+                  <!-- Grid column -->
+                  <div class="col-lg-8">
+        
+                    <div class="card-body form">
+        
+                      <!-- Header -->
+                      <h3 class="font-weight-bold dark-grey-text mt-4"><i class="fas fa-envelope pr-2 mr-1 p-1"></i>Write to us:</h3>
+        
+                      <!-- Grid row -->
+                      <div class="row">
+        
+                        <!-- Grid column -->
+                        <div class="col-md-6">
+                          <div class="md-form mb-0">
+                            <input type="text" id="form-contact-name" class="form-control">
+                            <label for="form-contact-name" class="p-1">Your name</label>
+                          </div>
+                        </div>
+                        <!-- Grid column -->
+        
+                        <!-- Grid column -->
+                        <div class="col-md-6">
+                          <div class="md-form mb-0">
+                            <input type="text" id="form-contact-email" class="form-control">
+                            <label for="form-contact-email" class="p-1">Your email</label>
+                          </div>
+                        </div>
+                        <!-- Grid column -->
+        
+                      </div>
+                      <!-- Grid row -->
+        
+                      <!-- Grid row -->
+                      <div class="row">
+        
+                        <!-- Grid column -->
+                        <div class="col-md-6">
+                          <div class="md-form mb-0">
+                            <input type="text" id="form-contact-phone" class="form-control">
+                            <label for="form-contact-phone" class="p-1">Your phone</label>
+                          </div>
+                        </div>
+                        <!-- Grid column -->
+        
+                        <!-- Grid column -->
+                        <div class="col-md-6">
+                          <div class="md-form mb-0">
+                            <input type="text" id="form-contact-company" class="form-control">
+                            <label for="form-contact-company" class="p-1">Your company</label>
+                          </div>
+                        </div>
+                        <!-- Grid column -->
+        
+                      </div>
+                      <!-- Grid row -->
+        
+                      <!-- Grid row -->
+                      <div class="row">
+        
+                        <!-- Grid column -->
+                        <div class="col-md-12">
+                          <div class="md-form mb-0">
+                            <textarea id="form-contact-message" class="form-control md-textarea" rows="3"></textarea>
+                            <label for="form-contact-message">Your message</label>
+                            <a class="btn-floating btn-lg blue">
+                              <i class="far fa-paper-plane"></i>
+                            </a>
+                          </div>
+                        </div>
+                        <!-- Grid column -->
+        
+                      </div>
+                      <!-- Grid row -->
+        
+                    </div>
+        
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-lg-4">
+        
+                    <div class="card-body contact text-center h-100 white-text">
+        
+                      <h3 class="font-weight-bold my-4 pb-2">Contact information</h3>
+                      <ul class="text-lg-left list-unstyled ml-4">
+                        <li>
+                          <p class="text-black"><i class="fas fa-map-marker-alt pr-2 p-1"></i>Mitchells Plain,Cape Town,South Africa</p>
+                        </li>
+                        <li>
+                          <p class="text-black"><i class="fas fa-phone pr-2 p-1"></i>+27 63 196 8544</p>
+                        </li>
+                        <li>
+                          <p class="text-black"><i class="fas fa-envelope pr-2 p-1"></i>contact r.swinton971@gmail.com</p>
+                        </li>
+                      </ul>
+                      <hr class="hr-light my-4">
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/company/linkedin/"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                           <a href="https://www.instagram.com/_brandonswinton_/"><i class="fab fa-instagram"></i></a>
+                        </li>
+                      </ul>
+        
+                    </div>
+        
+                  </div>
+                  <!-- Grid column -->
+        
                 </div>
-            <div>
-                <label for="#firstname">Surname</label>
-                <input id="surname" name="surname" type="text" placeholder="Enter your surname"required>
-            </div>
-              <div>
-                <label for="#firstname">Message</label>
-                <textarea name="message" cols="30" rows="10"></textarea>
+                <!-- Grid row -->
+        
               </div>
-               <div>
-                <input type="submit" value="submit">
-              </div>
-        </form>
-        </section>
-            
-        </section>
+              <!-- Form with header -->
+        
+            </section>
+            <!--Section: Content-->
+        
+        
+          </div>
+</section>
+<!--Section: Contact v.2-->
         <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     </main>
     <script src="https://kit.fontawesome.com/490cb6a8b5.js" crossorigin="anonymous"></script>
-    <footer>Copyright &copy;2022</footer>
+    <footer>Copyright &copy;2022
+    </footer>
 </body>
 </html>

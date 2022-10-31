@@ -7,58 +7,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*header,main,footer*/
-header,main,footer {
-    min-width: 99vw;
-}
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300;1,400&display=swap');
-/*header*/
-header{
-    display: inline-flex;
-    justify-content: space-between;
-    background-color: rgb(230, 219, 219);
-}
-/*Place the menu to the right of the page*/
-.menu {
-    /* margin: auto 0; */
-    align-items: flex-end;
-    margin: 5px 500px 0;
-    
-}
-/* main */
-/* heading */
+
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin-bottom: 15px;
 }    
-/*Navbar*/
-.menu-list{
-    text-decoration: none;
-    margin: auto;
-    display: inline-flex;
-    list-style: none;
-}
-.menu-list li{
-    padding: 0 10px;
-    text-decoration: none;
-
-}
 body{
     background-image: url(https://i.postimg.cc/BvfdYCD9/1477387.png);
     font-family: sans-serif;
     background-size: cover;
 }
-p{
-    text-align: center;
-}
 /* home */
-#home {
-}
-h2{
-    color: black;
-}
 .wrapper {
+    padding-top: 250px;
+    color: antiquewhite;
     min-height: 100vh;
     align-content: center;
 }
@@ -74,24 +36,11 @@ h2{
     margin: 15px;
     width: 200px;   
 }
-/* visited link */
-a:visited{
-    color: slategray;
-}
-/* mouse over link */
-a:hover{
-    transition: 0.6s;
-    color: skyblue;
-}
-/* selected link */
-a:active{
-    color: purple;
-}
-a{
+/* a{
     margin: left;
     text-decoration: none;
     font-family: monospace;
-}
+} */
 i{
     display: inline;
     color: grey;
@@ -105,6 +54,8 @@ i{
 }
 h2,h4{
     color: lightslategray;
+    text-align: center;
+    
 }
 #about{
     align-items: center;
@@ -113,5 +64,31 @@ p{
     color: antiquewhite;
     font-family: monospace;
 }
+#h1{
+    position: relative;
+    animation: moveright 5s infinite;
+    animation-direction: alternate;
+}
+@keyframes moveright {
+    from{ left: 0px;}
+    to { left: 150px;}  
+}
+#h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+    position: relative;
+    animation: moveleft 5s infinite;
+    animation-direction: alternate; 
+}
+@keyframes moveleft {
+    from{right: 0px;}
+    to{right: 150px;}
+    
+}
 
-
+@media screen and (max-width:720px) {
+    #aboutme .col-6{
+        width: 100%;
+    }
+    
+}
