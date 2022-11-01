@@ -67,23 +67,23 @@ p{
 }
 #h1{
     position: relative;
-    animation: moveright 5s infinite;
+    animation: moveright 3s infinite;
     animation-direction: alternate;
 }
 @keyframes moveright {
     from{ left: 0%;}
-    to { left: 5%;}  
+    to { left: 10%;}  
 }
 #h2{
     font-family: 'Courier New', Courier, monospace;
     color: antiquewhite;
     position: relative;
-    animation: moveleft 5s infinite;
+    animation: moveleft 3s infinite;
     animation-direction: alternate; 
 }
 @keyframes moveleft {
     from{right: 0%;}
-    to{right: 5%;}   
+    to{right: 10%;}   
 }
 html{
     scroll-behavior: smooth;
