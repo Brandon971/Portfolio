@@ -5,7 +5,7 @@
 ::before{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,6 +16,7 @@ body{
     background-image: url(https://i.postimg.cc/BvfdYCD9/1477387.png);
     font-family: sans-serif;
     background-size: cover;
+    overflow-x: hidden;
 }
 /* home */
 .wrapper {
@@ -70,8 +71,8 @@ p{
     animation-direction: alternate;
 }
 @keyframes moveright {
-    from{ left: 0px;}
-    to { left: 150px;}  
+    from{ left: 0%;}
+    to { left: 5%;}  
 }
 #h2{
     font-family: 'Courier New', Courier, monospace;
@@ -81,14 +82,34 @@ p{
     animation-direction: alternate; 
 }
 @keyframes moveleft {
-    from{right: 0px;}
-    to{right: 150px;}
-    
+    from{right: 0%;}
+    to{right: 5%;}   
 }
-
-@media screen and (max-width:720px) {
-    #aboutme .col-6{
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    color: antiquewhite;
+}
+@media screen and (max-width:720px){
+    #home{
         width: 100%;
     }
+    #about .col-6{
+        width: 100%;
+    }
+    #education .col-6{
+        width: 100%;
+    }
+    #skills .col-6{
+        width: 100%;
+    }
+    #project .col-6{
+        width: 100%;
+    }
+    #testimonials {
+        width: 100%;
+    }
+
     
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="./styles/style.css">
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -65,10 +65,10 @@
         <!-- About -->
       <section id="about">
             <h2>About</h2>
-            <div class="container">
-              <div class="row d-flex flex-column flex-md-row">
-                  <div class="col-6 p-3">
-                      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-6 p-3 d-flex d-md-flex">
+                      <div id="carouselExampleDark" class="carousel carousel-dark slide w-50" data-bs-ride="carousel">
                           <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -76,13 +76,13 @@
                           </div>
                           <div class="carousel-inner rounded-3">
                             <div class="carousel-item active" data-bs-interval="10000">
-                              <img src="https://i.postimg.cc/FRjK4Q2Q/IMG-20210822-WA0208.jpg" class="d-flex w-100 mx-auto" alt="image1">
+                              <img src="https://i.postimg.cc/FRjK4Q2Q/IMG-20210822-WA0208.jpg" class="d-flex w-100 mx-auto img" alt="image1">
                             </div>
                             <div class="carousel-item" data-bs-interval="2000">
-                              <img src="https://i.postimg.cc/kMbQ26dn/IMG-20210822-WA0212.jpg" class="d-block w-100 mx-auto" alt="image2">
+                              <img src="https://i.postimg.cc/kMbQ26dn/IMG-20210822-WA0212.jpg" class="d-block w-100 mx-auto img" alt="image2">
                             </div>
                             <div class="carousel-item">
-                              <img src="https://i.postimg.cc/q7SBW1hQ/IMG-20210822-WA0192-1.jpg" class="d-block w-100 mx-auto" alt="image3">
+                              <img src="https://i.postimg.cc/q7SBW1hQ/IMG-20210822-WA0192-1.jpg" class="d-block w-100 mx-auto " alt="image3">
                             </div>
                           </div>
                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -97,11 +97,9 @@
                         
                         </div>
                       </div>
-                          <div class="col-6 p-3">
+                          <div class="col-6 p-3 mx-auto my-auto">
                           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, ad eum! Sit, itaque ipsum et consequuntur blanditiis eos, sunt doloremque ex tempora nesciunt, necessitatibus quas ipsa impedit. Nulla, totam itaque!
-                          Exercitationem officiis aliquid adipisci ab magni repudiandae, et reiciendis perferendis expedita iusto tempora dicta quis iure aut cumque laboriosam architecto nihil natus mollitia eligendi ex. Fuga laboriosam repellat eius iusto.
-                          Accusamus blanditiis, officia dignissimos odit eum fuga enim id ex deleniti distinctio sed beatae consectetur fugit quos nulla, possimus minima expedita voluptates nisi nesciunt commodi unde non repellat perferendis. Vel!
-                          Earum quis nesciunt accusantium, officiis ex vitae possimus reprehenderit sed aliquid odit fuga asperiores similique veritatis eum incidunt nulla repellat, nobis veniam atque modi. Impedit, tempore numquam! Illo, consequatur nesciunt. </p>
+                          Exercitationem officiis aliquid adipisci ab magni repudiandae, et reiciendis perferendis expedita iusto  </p>
                         </div>
                 
           </div>
@@ -111,9 +109,16 @@
         <section id="education">
             <div class="col-6 mx-auto p-3">
               <h2 class="p-3">Education</h2>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam labore illum nulla minus, iusto debitis laboriosam dicta tempore molestiae hic corrupti possimus necessitatibus, corporis pariatur at deserunt inventore, suscipit ducimus.
-                Quasi, quas ipsum! Facere, tenetur sapiente pariatur molestiae quasi quae asperiores sint accusantium error ducimus, eligendi ratione adipisci alias obcaecati. Voluptatibus id quibusdam asperiores dolor minus eius illo voluptates delectus.
-                Ab dolore quam a, facilis aliquid quod repellat sapiente delectus atque iure earum pariatur, commodi veritatis illo, repellendus rem magni blanditiis</p>
+               <p>Ive studied at portlands high ,I was a very discipline student ,I have excelled at all my subjets during the years.The subjects i done at portlands are : </p>
+               <ul>
+                <li>English Home language</li>
+               <li>Afrikaans First Additional</li>
+               <li>Mathemetic literacy</li>
+               <li>History</li>
+               <li>Bussines Studies</li>
+               <li>Economics</li>
+               <li>Life orientation</li>
+              </ul> 
                 
               
             </div>
@@ -122,17 +127,34 @@
         <section id="skills">
             <h2>Skills</h2>
             <div class="col-6 mx-auto p-3">
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni exercitationem quos odit modi explicabo in laudantium voluptate tenetur voluptatibus itaque ducimus illum, ex, quia molestias aspernatur, velit officia commodi repellat.
-                Voluptatum voluptates, ratione vitae ducimus libero officia, porro explicabo rem voluptatibus esse laborum excepturi a est, iste omnis aliquam assumenda inventore dicta! Suscipit saepe minus cumque numquam molestiae fugiat aliquam?
-                Commodi, ipsam ducimus? Laboriosam, minima aspernatur et quae officiis laborum ipsum consequuntur? Odit ipsa, officiis ea animi consectetur iusto repudiandae voluptatem ducimus molestiae, cumque quod repellendus harum vitae quaerat enim!
-              </p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filetype-html text-info" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5Zm-9.736 7.35v3.999h-.791v-1.714H1.79v1.714H1V11.85h.791v1.626h1.682V11.85h.79Zm2.251.662v3.337h-.794v-3.337H4.588v-.662h3.064v.662H6.515Zm2.176 3.337v-2.66h.038l.952 2.159h.516l.946-2.16h.038v2.661h.715V11.85h-.8l-1.14 2.596H9.93L8.79 11.85h-.805v3.999h.706Zm4.71-.674h1.696v.674H12.61V11.85h.79v3.325Z"/>
+              </svg>
+              <div class="progress">
+                <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-filetype-css text-info" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM3.397 14.841a1.13 1.13 0 0 0 .401.823c.13.108.289.192.478.252.19.061.411.091.665.091.338 0 .624-.053.859-.158.236-.105.416-.252.539-.44.125-.189.187-.408.187-.656 0-.224-.045-.41-.134-.56a1.001 1.001 0 0 0-.375-.357 2.027 2.027 0 0 0-.566-.21l-.621-.144a.97.97 0 0 1-.404-.176.37.37 0 0 1-.144-.299c0-.156.062-.284.185-.384.125-.101.296-.152.512-.152.143 0 .266.023.37.068a.624.624 0 0 1 .246.181.56.56 0 0 1 .12.258h.75a1.092 1.092 0 0 0-.2-.566 1.21 1.21 0 0 0-.5-.41 1.813 1.813 0 0 0-.78-.152c-.293 0-.551.05-.776.15-.225.099-.4.24-.527.421-.127.182-.19.395-.19.639 0 .201.04.376.122.524.082.149.2.27.352.367.152.095.332.167.539.213l.618.144c.207.049.361.113.463.193a.387.387 0 0 1 .152.326.505.505 0 0 1-.085.29.559.559 0 0 1-.255.193c-.111.047-.249.07-.413.07-.117 0-.223-.013-.32-.04a.838.838 0 0 1-.248-.115.578.578 0 0 1-.255-.384h-.765ZM.806 13.693c0-.248.034-.46.102-.633a.868.868 0 0 1 .302-.399.814.814 0 0 1 .475-.137c.15 0 .283.032.398.097a.7.7 0 0 1 .272.26.85.85 0 0 1 .12.381h.765v-.072a1.33 1.33 0 0 0-.466-.964 1.441 1.441 0 0 0-.489-.272 1.838 1.838 0 0 0-.606-.097c-.356 0-.66.074-.911.223-.25.148-.44.359-.572.632-.13.274-.196.6-.196.979v.498c0 .379.064.704.193.976.131.271.322.48.572.626.25.145.554.217.914.217.293 0 .554-.055.785-.164.23-.11.414-.26.55-.454a1.27 1.27 0 0 0 .226-.674v-.076h-.764a.799.799 0 0 1-.118.363.7.7 0 0 1-.272.25.874.874 0 0 1-.401.087.845.845 0 0 1-.478-.132.833.833 0 0 1-.299-.392 1.699 1.699 0 0 1-.102-.627v-.495ZM6.78 15.29a1.176 1.176 0 0 1-.111-.449h.764a.578.578 0 0 0 .255.384c.07.049.154.087.25.114.095.028.201.041.319.041.164 0 .301-.023.413-.07a.559.559 0 0 0 .255-.193.507.507 0 0 0 .085-.29.387.387 0 0 0-.153-.326c-.101-.08-.256-.144-.463-.193l-.618-.143a1.72 1.72 0 0 1-.539-.214 1 1 0 0 1-.351-.367 1.068 1.068 0 0 1-.123-.524c0-.244.063-.457.19-.639.127-.181.303-.322.527-.422.225-.1.484-.149.777-.149.304 0 .564.05.779.152.217.102.384.239.5.41.12.17.187.359.2.566h-.75a.56.56 0 0 0-.12-.258.624.624 0 0 0-.246-.181.923.923 0 0 0-.37-.068c-.216 0-.387.05-.512.152a.472.472 0 0 0-.184.384c0 .121.047.22.143.3a.97.97 0 0 0 .404.175l.621.143c.217.05.406.12.566.211.16.09.285.21.375.358.09.148.135.335.135.56 0 .247-.063.466-.188.656a1.216 1.216 0 0 1-.539.439c-.234.105-.52.158-.858.158-.254 0-.476-.03-.665-.09a1.404 1.404 0 0 1-.478-.252 1.13 1.13 0 0 1-.29-.375Z"/>
+              </svg>
+              <div class="progress">
+                <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bootstrap text-info" viewBox="0 0 16 16">
+                <path d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377H6.375z"/>
+                <path d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H4z"/>
+              </svg>
+                <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
+                <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z"/>
+              </svg>
+              <div class="progress">
+                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
+              </div>
             </div>
           </section>
         <!--Project-->
         <section id="project">
             <h2>Project</h2>
-            <div class="col-6 mx-auto p-3">
+            <div class="col-6 mx-auto p-3 d-flex flex-column flex-md-row">
              <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est aperiam animi expedita eos, tempore fugiat eius, voluptatem ex reiciendis optio ea facilis distinctio ad, incidunt aspernatur asperiores illo quidem? Nemo?
               Optio sequi necessitatibus cum culpa quasi laudantium a voluptatum, temporibus magni possimus, inventore quis, pariatur voluptatem assumenda recusandae illo. Alias harum minima architecto quidem magnam ullam asperiores? Magni, tempore quos.
               Sunt corporis aliquid quasi? Expedita voluptates nulla commodi rem perferendis nobis perspiciatis hic qui itaque excepturi nemo fugit ducimus facilis cum libero dolorem cupiditate molestiae laborum, explicabo exercitationem assumenda est.
@@ -141,7 +163,7 @@
         </section>
         <section id="testimonials">
           <h2>Testimonials</h2>
-          <div class="container mt-5">
+          <div class="container mt-5 d-flex flex-column flex-md-row">
 
 
             <!--Section: Content-->
@@ -162,14 +184,34 @@
                   <div class="testimonial">
                     <!--Avatar-->
                     <div class="avatar mx-auto">
-                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg" class="rounded-circle z-depth-1 img-fluid">
+                      <img  src="https://i.postimg.cc/MHt4SpSN/IMG-3573.jpg" class="rounded-circle z-depth-1 img-fluid w-50">
                     </div>
                     <!--Content-->
-                    <h4 class="font-weight-bold dark-grey-text mt-4">Anna Deynah</h4>
-                    <h6 class="font-weight-bold blue-text my-3">Web Designer</h6>
-                    <p class="font-weight-normal dark-grey-text">
-                      <i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                      eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
+                    <h4 class="font-weight-bold dark-grey-text mt-4">Timothy Jennike</h4>
+                    <h6 class="font-weight-bold blue-text my-3">Web Developer</h6>
+                    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Commendation
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
                     <!--Review-->
                   </div>
           
@@ -187,9 +229,29 @@
                     <!--Content-->
                     <h4 class="font-weight-bold dark-grey-text mt-4">John Doe</h4>
                     <h6 class="font-weight-bold blue-text my-3">Web Developer</h6>
-                    <p class="font-weight-normal dark-grey-text">
-                      <i class="fas fa-quote-left pr-2"></i>Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                      corporis suscipit laboriosam, nisi ut aliquid commodi.</p>
+                    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Commendation
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
                   </div>
           
                 </div>
@@ -201,14 +263,34 @@
                   <div class="testimonial">
                     <!--Avatar-->
                     <div class="avatar mx-auto">
-                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle z-depth-1 img-fluid">
+                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle z-depth-1 img-fluid ">
                     </div>
                     <!--Content-->
                     <h4 class="font-weight-bold dark-grey-text mt-4">Maria Kate</h4>
                     <h6 class="font-weight-bold blue-text my-3">Photographer</h6>
-                    <p class="font-weight-normal dark-grey-text">
-                      <i class="fas fa-quote-left pr-2"></i>At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                      blanditiis praesentium voluptatum deleniti atque corrupti.</p>
+                    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Commendation
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
                   </div>
           
                 </div>
@@ -226,11 +308,11 @@
         <!--Contract-->
         <section id="contact">
           <h2>Contact Me </h2>
-          <div class="container my-5">
+          <div class="container my-5 ">
 
  
             <!--Section: Content-->
-            <section class="contact-section dark-grey-text mb-5">
+            <section class="contact-section dark-text mb-5">
               
               <style>
                 .contact-section .form .btn-floating {
@@ -258,7 +340,7 @@
                         <!-- Grid column -->
                         <div class="col-md-6">
                           <div class="md-form mb-0">
-                            <input type="text" id="form-contact-name" class="form-control">
+                            <input type="text" id="form-contact-name" class="form-control border border-dark">
                             <label for="form-contact-name" class="p-1">Your name</label>
                           </div>
                         </div>
@@ -267,7 +349,7 @@
                         <!-- Grid column -->
                         <div class="col-md-6">
                           <div class="md-form mb-0">
-                            <input type="text" id="form-contact-email" class="form-control">
+                            <input type="text" id="form-contact-email" class="form-control border border-dark">
                             <label for="form-contact-email" class="p-1">Your email</label>
                           </div>
                         </div>
@@ -282,7 +364,7 @@
                         <!-- Grid column -->
                         <div class="col-md-6">
                           <div class="md-form mb-0">
-                            <input type="text" id="form-contact-phone" class="form-control">
+                            <input type="text" id="form-contact-phone" class="form-control border border-dark">
                             <label for="form-contact-phone" class="p-1">Your phone</label>
                           </div>
                         </div>
@@ -291,7 +373,7 @@
                         <!-- Grid column -->
                         <div class="col-md-6">
                           <div class="md-form mb-0">
-                            <input type="text" id="form-contact-company" class="form-control">
+                            <input type="text" id="form-contact-company" class="form-control border border-dark">
                             <label for="form-contact-company" class="p-1">Your company</label>
                           </div>
                         </div>
@@ -306,7 +388,7 @@
                         <!-- Grid column -->
                         <div class="col-md-12">
                           <div class="md-form mb-0">
-                            <textarea id="form-contact-message" class="form-control md-textarea" rows="3"></textarea>
+                            <textarea id="form-contact-message" class="form-control md-textarea border border-dark" rows="3"></textarea>
                             <label for="form-contact-message">Your message</label>
                             <a class="btn-floating btn-lg blue">
                               <i class="far fa-paper-plane"></i>
@@ -372,7 +454,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     </main>
     <script src="https://kit.fontawesome.com/490cb6a8b5.js" crossorigin="anonymous"></script>
-    <footer>Copyright &copy;2022
-    </footer>
+    <footer class="container-fluid bg-black text-light text-center">Copyright &copy;2022</footer>
 </body>
 </html>
