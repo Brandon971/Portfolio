@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 15px;
 }    
 body{
+    overflow-y: hidden;
     background-image: url(https://i.postimg.cc/BvfdYCD9/1477387.png);
     font-family: sans-serif;
     background-size: cover;
@@ -50,6 +51,7 @@ i{
     color: white;
 }
 .slide{
+    margin: auto;
     border-radius: 30%;
     width: 400px;
 }
@@ -59,6 +61,8 @@ h2,h4{
     
 }
 #about{
+    width: 100vw;
+    height: 100vh;
     align-items: center;
 }
 p{
@@ -75,8 +79,6 @@ p{
     to { left: 10%;}  
 }
 #h2{
-    font-family: 'Courier New', Courier, monospace;
-    color: antiquewhite;
     position: relative;
     animation: moveleft 3s infinite;
     animation-direction: alternate; 
@@ -92,11 +94,12 @@ ul{
     color: antiquewhite;
 }
 @media screen and (max-width:720px){
-    #home{
+    .container-fluid{
         width: 100%;
     }
     #about .col-6{
         width: 100%;
+        
     }
     #education .col-6{
         width: 100%;
@@ -109,7 +112,34 @@ ul{
     }
     #testimonials {
         width: 100%;
+        height: 100vh;
+
+    }
+
+    body {
+        overflow-y: scroll;
     }
 
     
+}
+#skills{
+    width: 100vw;
+    height: 100vh;
+}
+#education{
+    width: 100vw;
+    height: 100vh;
+}
+#project{
+    width: 100vw;
+    height: 100vh;
+}
+#testimonials{
+    width: 100vw;
+    height: 100vh;
+    
+}
+#contact{
+    width: 100vw;
+    height: 100vh;
 }
