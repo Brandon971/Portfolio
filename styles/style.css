@@ -1,7 +1,6 @@
-/* Select all elements*/
-*
+
 *,
-::after
+*::after,
 ::before{
     margin: 0;
     padding: 0;
@@ -13,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 15px;
 }    
 body{
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     background-image: url(https://i.postimg.cc/BvfdYCD9/1477387.png);
     font-family: sans-serif;
     background-size: cover;
@@ -61,8 +60,6 @@ h2,h4{
     
 }
 #about{
-    width: 100vw;
-    height: 100vh;
     align-items: center;
 }
 p{
@@ -73,6 +70,16 @@ p{
     position: relative;
     animation: moveright 3s infinite;
     animation-direction: alternate;
+}
+footer{
+    /* width: 100%;
+    height: 100%; */
+    margin: 0;
+
+}
+footer p {
+    margin: 0;
+    text-align: center;
 }
 @keyframes moveright {
     from{ left: 0%;}
@@ -99,6 +106,7 @@ ul{
     }
     #about .col-6{
         width: 100%;
+        height: 100%;
         
     }
     #education .col-6{
@@ -112,15 +120,22 @@ ul{
     }
     #testimonials {
         width: 100%;
-        height: 100vh;
+        height: 100%;
 
     }
 
     body {
         overflow-y: scroll;
     }
-
-    
+    footer{
+        /* width: 100%;
+        height: 100%; */
+        margin: 0;
+    }
+    footer p {
+        margin: 0;
+        text-align: center;
+    }   
 }
 #skills{
     width: 100vw;
@@ -130,16 +145,11 @@ ul{
     width: 100vw;
     height: 100vh;
 }
-#project{
-    width: 100vw;
-    height: 100vh;
-}
 #testimonials{
+    overflow-y: scroll;
     width: 100vw;
-    height: 100vh;
-    
+    height: 100%;
 }
-#contact{
-    width: 100vw;
-    height: 100vh;
+#project{
+    background-color: rgba(255, 255, 255, 0.097);
 }
