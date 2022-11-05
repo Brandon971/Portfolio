@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="/assets/Brandon Swinton-1 (2).jpg" type="image/x-icon">
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Contact Me</title>
@@ -80,7 +81,7 @@
                       <div class="card-body form">
           
                         <!-- Header -->
-                        <h3 class="font-weight-bold dark-grey-text mt-4"><i class="fas fa-envelope pr-2 mr-1 p-1"></i>Write to us:</h3>
+                        <h3 class="font-weight-bold dark-grey-text mt-4"><i class="fas fa-envelope pr-2 mr-1 p-1"></i>Write to me:</h3>
           
                         <!-- Grid row -->
                         <div class="row">
@@ -88,7 +89,8 @@
                           <!-- Grid column -->
                           <div class="col-md-6">
                             <div class="md-form mb-0">
-                              <input type="text" id="form-contact-name" class="form-control border border-dark">
+                              <form action="https://formspree.io/f/mrgdowaq" method="post" target="_blank">
+                                <input type="text" id="form-contact-name" name="Your name" class="form-control border border-dark" required="required" data-error="name is required" placeholder="name">
                               <label for="form-contact-name" class="p-1">Your name</label>
                             </div>
                           </div>
@@ -97,8 +99,8 @@
                           <!-- Grid column -->
                           <div class="col-md-6">
                             <div class="md-form mb-0">
-                              <input type="text" id="form-contact-email" class="form-control border border-dark">
-                              <label for="form-contact-email" class="p-1">Your email</label>
+                              <input type="text" id="form-contact-email" name="Your email" class="form-control border border-dark " required="required" data-error="email is required" placeholder="email">
+                              <label for="form-contact-email" class="p-1" >Your email</label>
                             </div>
                           </div>
                           <!-- Grid column -->
@@ -112,8 +114,8 @@
                           <!-- Grid column -->
                           <div class="col-md-6">
                             <div class="md-form mb-0">
-                              <input type="text" id="form-contact-phone" class="form-control border border-dark">
-                              <label for="form-contact-phone" class="p-1">Your phone</label>
+                              <input type="text" id="form-contact-phone" name="Your phone" class="form-control border border-dark" required="required" data-error="phone is required" placeholder="phone">
+                              <label for="form-contact-phone"  class="p-1">Your phone</label>
                             </div>
                           </div>
                           <!-- Grid column -->
@@ -121,7 +123,7 @@
                           <!-- Grid column -->
                           <div class="col-md-6">
                             <div class="md-form mb-0">
-                              <input type="text" id="form-contact-company" class="form-control border border-dark">
+                              <input type="text" id="form-contact-company" name="Your company" class="form-control border border-dark" required="required" data-error="company is required" placeholder="company">
                               <label for="form-contact-company" class="p-1">Your company</label>
                             </div>
                           </div>
@@ -134,9 +136,9 @@
                         <div class="row">
           
                           <!-- Grid column -->
-                          <div class="col-md-12">
+                          <div class="col-md-12 pb-4">
                             <div class="md-form mb-0">
-                              <textarea id="form-contact-message" class="form-control md-textarea border border-dark" rows="3"></textarea>
+                              <textarea id="form-contact-message" name="Your message" class="form-control md-textarea border border-dark" rows="3" required="required" data-error="message is required" placeholder="message"></textarea>
                               <label for="form-contact-message">Your message</label>
                               <a class="btn-floating btn-lg blue">
                                 <i class="far fa-paper-plane"></i>
@@ -146,11 +148,13 @@
                           <!-- Grid column -->
           
                         </div>
-                        <!-- Grid row -->
-          
+                        <button type="submit" class="btn btn-outline-dark ">send message</button>
                       </div>
-          
+                      
+                      
                     </div>
+                  </form>
+                              
                     <!-- Grid column -->
           
                     <!-- Grid column -->
@@ -173,10 +177,10 @@
                         <hr class="hr-light my-4">
                           </li>
                           <li class="list-inline-item">
-                              <a href="https://www.linkedin.com/company/linkedin/"><i class="fab fa-linkedin-in"></i></a>
+                              <a href="https://www.linkedin.com/company/linkedin/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                           </li>
                           <li class="list-inline-item">
-                             <a href="https://www.instagram.com/_brandonswinton_/"><i class="fab fa-instagram"></i></a>
+                             <a href="https://www.instagram.com/_brandonswinton_/" target="_blank"><i class="fab fa-instagram"></i></a>
                           </li>
                         </ul>
           
@@ -197,7 +201,7 @@
           
             </div>
         </section>
-        <footer class="lead bg-dark sticky-bottom position-fixed w-100"><p class="text-center">Copyright &copy;2022</p> </footer>
+        <footer class="container-fluid bg-dark sticky-bottom position-fixed w-100"><p class="text-center">Copyright &copy;2022</p> </footer>
         <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/490cb6a8b5.js" crossorigin="anonymous"></script>

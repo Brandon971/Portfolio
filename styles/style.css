@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 15px;
 }    
 body{
-    /* overflow-y: hidden; */
+     /* overflow-y: hidden; */
     background-image: url(https://i.postimg.cc/BvfdYCD9/1477387.png);
     font-family: sans-serif;
     background-size: cover;
@@ -22,7 +22,7 @@ body{
 .wrapper {
     padding-top: 250px;
     color: antiquewhite;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     align-content: center;
 }
 .wrapper img{
@@ -66,6 +66,11 @@ p{
     color: antiquewhite;
     font-family: monospace;
 }
+
+#home a {
+    text-decoration: none;
+}
+
 #h1{
     position: relative;
     animation: moveright 3s infinite;
@@ -81,18 +86,11 @@ footer p {
     margin: 0;
     text-align: center;
 }
-@keyframes moveright {
-    from{ left: 0%;}
-    to { left: 10%;}  
-}
+
 #h2{
     position: relative;
     animation: moveleft 3s infinite;
     animation-direction: alternate; 
-}
-@keyframes moveleft {
-    from{right: 0%;}
-    to{right: 10%;}   
 }
 html{
     scroll-behavior: smooth;
@@ -120,10 +118,11 @@ ul{
     }
     #testimonials {
         width: 100%;
-        height: 100%;
-
+        height: 100%;   
     }
-
+    #contact .btn {
+        margin: auto;
+    }
     body {
         overflow-y: scroll;
     }
@@ -136,6 +135,9 @@ ul{
         margin: 0;
         text-align: center;
     }   
+    .btn {
+        width: 100%;
+    }
 }
 #skills{
     width: 100vw;
@@ -146,10 +148,23 @@ ul{
     height: 100vh;
 }
 #testimonials{
-    overflow-y: scroll;
     width: 100vw;
     height: 100%;
 }
-#project{
-    background-color: rgba(255, 255, 255, 0.097);
+
+
+/* #home{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+} */
+
+
+@keyframes moveright {
+    from{ left: 0%;}
+    to { left: 10%;}  
+}
+@keyframes moveleft {
+    from{right: 0%;}
+    to{right: 10%;}   
 }
